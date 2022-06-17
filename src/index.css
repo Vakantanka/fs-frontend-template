@@ -1,13 +1,64 @@
-body {
+/* CSS reset */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+/* App */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body, html {
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  text-align: center;
+
+}
+
+.counter {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  border: 1px solid;
+  border-color: darkgreen;
+  background-color: green;
+  font-size: 2rem;
+  padding: .25em 1em;
+  color: white;
+  border-radius: 20% 20%;
+  margin: 1rem;
 }
