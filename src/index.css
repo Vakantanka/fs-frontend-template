@@ -59,6 +59,41 @@ button {
   font-size: 2rem;
   padding: .25em 1em;
   color: white;
-  border-radius: 20% 20%;
+  border-radius: 6px;
   margin: 1rem;
+}
+
+button:hover {
+  color: darkgreen;
+  background-color: white;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color:  green;
+}
+
+nav button {
+  border: none;
+  border-color: darkgreen;
+  background-color: green;
+  padding: .25em 1em;
+  color: white;
+  padding: .75em 2em;
+  margin: 0 1rem;
+  font-size: 1.5em;
+  font-weight: 700;
+  border-radius: 0;
+}
+
+button.homeValue, button.profileValue {
+  background-color:white;
+  color: darkgreen;
+  border: none;
+  border-radius: 0;
 }
