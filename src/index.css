@@ -69,13 +69,16 @@ button:hover {
 }
 
 nav {
+  width: 100%;
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color:  green;
 }
 nav ul {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: flex-start;
-  background-color:  green;
 }
 
 nav button {
@@ -89,6 +92,10 @@ nav button {
   font-size: 1.5em;
   font-weight: 700;
   border-radius: 0;
+}
+
+nav li.right {
+  align-self: flex-end;
 }
 
 button.homeValue, button.profileValue {
